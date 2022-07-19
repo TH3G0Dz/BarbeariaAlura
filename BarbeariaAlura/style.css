@@ -1,0 +1,305 @@
+/* CABEÇALHO E RODAPÉ */
+header {
+	background: #CCCCCC;
+	padding: 20px 0;
+}
+/* CAIXA POR TRAZ DA IMAGEM E DOS LINKS */
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+/* TAG DE NAVEGAÇÃO */
+nav {
+	position: absolute; right: 10%; top: 110px;
+}
+/* ITENS DA LISTA DE LINKS */
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+/* PROPRIEDADE DOS LINKS NA TAG DE NAVEGAÇÃO */
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+/* "ANIMAÇÃO" QUANDO PASSAR O MOUSE POR CIMA DOS LINKS */
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+/* RODAPÉ DO SITE (ALINHAMENTO E BACKGROUND) */
+footer {
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 40px 0;
+}
+/* RODAPÉ DO SITE, TEXTO DE COPYRIGHT */
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+/* MUDANÇA DA FONTE */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------------HOME.CSS--------------------- */
+
+
+/* ALINHA AS COISAS NO CENTRO, AUMENTA A FONTE E DA UMA MARGEM PRA BAIXO*/
+.tituloCentro {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+    clear: left;
+}
+/* EDIÇÃO DO PNG-BANNER */
+.banner {
+	width: 100%;	
+}  
+/* TEXTO PRINCIPAL */
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+	width: 940px;
+    margin: 0 auto;
+}
+/* IMAGEM DOS UTENSILIOS */
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+/* PARAGRAFOS DO TEXTO PRINCIPAL */
+.principal p {
+	text-align: center;
+	font-size: 20px;
+    line-height: 1.5;
+}
+/* DEIXA EM NEGRITO */
+strong {
+	font-weight: bold;
+}
+/* MUDA A COR DO NEGRITO NA TAG "EM" */
+em strong {
+	color: #b63636 ;
+}
+/* DEFINIÇÃO DE FONTE EM ITALICO */ 
+em {
+    font-style: italic;
+}
+/* EDIÇÃO DO MAPA */
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE,#888888);
+}
+/* EDIÇÃO DO BACKGROUND DO MAPA */
+.mapa-2 {
+    width: 940px;
+    margin: 0 auto;
+}
+/* PARÁGRAFO DO MAPA */
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+/* DIVISAO DOSBENEFICIOS */
+.beneficios {
+	padding: 3em 0;
+    background: #888888;
+}
+/* MUDANÇAS NO TAMANHO DA LISTA DE BENEFICIOS */
+.lista-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+/* EDIÇÃO LISTA 2 */
+.lista2 {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	margin-right: 5% ; 
+	font-size: 18px;
+}
+/* ITENS DA LISTA 2 */
+.itens {
+	font-style: italic;
+    line-height: 1.5;
+}
+/* ESTRELINHAS DA LISTA */
+.itens:before {
+    content: "★";
+}
+/* IMAGEM DOS BENEFICIOS */
+.imgBeneficios {
+	width: 50%;
+	display: inline-block;
+	margin-left: 5px;
+    margin-right: 5px;
+    opacity: 1;
+    transition: 400ms;
+}
+/* TRANSIÇÃO DA OPACIDADE DA IMAGEM DOS BENEFICIOS */
+.imgBeneficios:hover {
+    opacity: 0.3;    
+}
+/* EDIÇÃO DO VIDEO */
+.video {
+    width: 560px;
+    margin: 1em auto;
+    padding-top: 2em;
+}
+
+/* --------------------PRODUTOS.CSS-------------------- */
+
+/* CLASSE DA LISTA DE PRODUTOS */ 
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+/* ITENS DA LISTA DE PRODUTOS */
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/* "ANIMAÇÃO" DOS ITENS QUANDO O MOUSE PASSA EM CIMA */
+.produtos li:hover {
+    border-color: #C78C19;
+}
+/* "ANIMAÇÃO" DOS ITENS QUANDO CLICAR NOS ITENS */
+.produtos li:active {
+    border-color: blue;
+}
+/* TITULO DOS PRODUTOS */
+.produtos h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+/* "ANIMAÇÃO" DO TITULO DOS PRODUTOS QUANDO O MOUSE PASSAR EM CIMA */
+.produtos li:hover h2{
+    font-size: 35px;
+}
+/* TEXTO DA DESCRIÇÃO DO PRODUTO */
+.descricao-produto {
+    font-size: 18px;    
+}
+/* TEXTO DO PREÇO DOS PRODUTOS */
+.preco-produto {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+/* --------------------CONTATO.CSS-------------------- */
+
+/* MUDANÇA NO TAMANHO DAS COISAS EM MAIN */
+.main-contato {
+    width: 940px;
+    margin: 0 auto;
+}
+/* MARGEM DO FORMULARIO */
+form{
+    margin: 40px 0;
+}
+/* MUDANCAS DAS PROPORCOES DE LABEL E LEGEND */
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+/* MUDANÇAS DE TAMANHO DOS INPUTS E DO TEXTAREA */
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+/* TAMANHO E MARGEM DA CHECKBOX */
+.checkbox {
+    display: block;
+    margin: 20px 0;
+}
+/* MUDANÇAS DO BOTÃO DE ENVIAR */
+.enviar {
+    display: block;
+    width: 55%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+/* "ANIMAÇÃO" DO BOTAO DE ENVIAR */
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+/* MARGEM DA TABELA PRO CANTO E PARA BAIXO */
+table {
+    margin: 20px 0 40px;
+}
+/* MUDANÇAS DO CABEÇALHO DA TABELA */
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+/* BORDAS E MARGEM INTERNA DA TABELA */
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+
+/* EDIÇÃO DA VIZUALIZAÇÃO EM CELULAR */
+@media screen and (max-width: 480px){
+    .caixa, .principal, .lista-beneficios, .video, .mapa-2, .produtos, .main-contato {
+        width: auto;
+    } 
+    h1{
+        text-align: center;
+    }
+    nav {
+        position: static;
+        text-align: center;
+    }
+    .imgBeneficios {
+        width: 97%;
+    }
+    .produtos li {
+        width: 97%;
+        margin-top: 20px;
+    }    
+    .lista2 {
+       width: 97%;
+    }
+    .main-contato {
+        text-align: center;
+    }
+    .input-padrao {
+        display: inline;
+    }
+    .enviar {
+        text-align: center;
+        display: inline;
+    }
+    .tabela {
+        display: inline;
+    }
+}
